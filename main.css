@@ -1,0 +1,647 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 52px 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav__lists {
+  display: flex;
+  gap: 48px;
+
+  align-items: center;
+}
+.nav__wrapper {
+  display: flex;
+}
+
+.color {
+  background-color: #1b3764;
+}
+
+.nav__btn {
+  background-color: inherit;
+  border: 1px solid #1b3764;
+}
+
+.nav__help {
+  padding-left: 666px;
+}
+
+.nav__button {
+  background-color: #ffca42;
+  color: black;
+  padding: 13px 80px;
+  border: none;
+}
+
+.nav__icons {
+  display: flex;
+  gap: 10px;
+}
+
+.hero__content {
+  text-align: end;
+  margin-right: 150px;
+  position: relative;
+  bottom: 200px;
+}
+
+.hero__text {
+  text-align: center;
+  margin-right: 650px;
+  font-size: xx-large;
+  position: relative;
+  top: 350px;
+}
+
+.hero__info {
+  color: rgba(180, 199, 231, 1);
+  position: relative;
+  top: 50px;
+}
+
+.hero__welcome {
+  color: #ffffff;
+  position: relative;
+  bottom: 50px;
+}
+
+.hero__button {
+  background-color: #ffca42;
+  color: black;
+  padding: 20px 80px;
+  border: none;
+  font-size: 20px;
+  position: relative;
+  top: 80px;
+}
+
+.hero__btn {
+  background-color: inherit;
+  border: none;
+  text-decoration-line: underline;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  left: 20px;
+  top: 80px;
+}
+
+.hero__review {
+  font-size: 30px;
+  display: flex;
+  gap: 40px;
+  justify-self: center;
+  position: relative;
+  right: 40px;
+  top: 100px;
+}
+
+.hero__color {
+  color: rgba(180, 199, 231, 1);
+}
+
+.hero__review {
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero__color1 {
+  color: rgba(180, 199, 231, 1);
+  position: relative;
+  left: 50px;
+}
+
+.hero__name {
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero1__name {
+  color: rgba(27, 55, 100, 1);
+  font-size: 45px;
+  text-align: center;
+}
+
+.hero1__color {
+  color: rgba(150, 154, 160, 1);
+}
+
+.hero1__color1 {
+  color: rgba(150, 154, 160, 1);
+}
+
+.hero1__review {
+  color: rgba(27, 55, 100, 1);
+  display: flex;
+  gap: 30px;
+  position: relative;
+  top: 67px;
+}
+
+.hero1__info {
+  font-size: 32px;
+  color: rgba(27, 55, 100, 1);
+  position: relative;
+  top: 10px;
+}
+
+.hero1__info1 {
+  font-size: 19px;
+  color: rgba(150, 154, 160, 1);
+  position: relative;
+  top: 40px;
+}
+
+.hero1__btn {
+  color: rgba(27, 55, 100, 1);
+  background-color: inherit;
+  border: 1px solid rgba(255, 202, 66, 1);
+  padding: 21px 53px;
+  position: relative;
+  top: 67px;
+  right: 240px;
+}
+
+.hero1__start {
+  position: relative;
+  left: 30px;
+}
+
+.hero1__start {
+  position: relative;
+  top: 50px;
+}
+
+.hero1__card1 {
+  display: flex;
+}
+
+.hero1__cards {
+  display: flex;
+  position: relative;
+  top: 50px;
+}
+
+.color2 {
+  background-color: rgba(244, 248, 255, 1);
+}
+
+.hero2__text {
+  font-size: 19px;
+  color: rgba(150, 154, 160, 1);
+  position: relative;
+  top: 62px;
+}
+
+.hero2__name {
+  font-size: 45px;
+  color: rgba(27, 55, 100, 1);
+  position: relative;
+  bottom: 20px;
+}
+
+.hero2__border {
+  border: 3px solid rgba(255, 202, 66, 1);
+  position: relative;
+  top: 22px;
+  width: 50px;
+}
+
+.hero2__wrapper {
+  display: flex;
+  gap: 100px;
+}
+
+.hero2__number {
+  font-size: 55px;
+  color: rgba(27, 55, 100, 1);
+  position: relative;
+  top: 80px;
+}
+
+.hero2__comment {
+  font-size: 18px;
+  color: rgba(150, 154, 160, 1);
+  position: relative;
+  top: 80px;
+}
+.hero2__border2 {
+  border: 1px solid rgba(255, 202, 66, 1);
+  position: relative;
+  left: 130px;
+  width: 2px;
+  height: 100px;
+  transform: rotate(0deg);
+}
+
+.hero2__comments {
+  display: flex;
+  gap: 100px;
+}
+
+.hero2__img2 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+
+.hero2__bgc {
+  background-color: rgba(27, 55, 100, 1);
+  padding: 15px 0px 15px 18px;
+  display: flex;
+  gap: 20px;
+  width: 450px;
+}
+
+.hero2__humen {
+  font-size: 22px;
+  color: rgba(255, 202, 66, 1);
+}
+
+.hero2__email {
+  color: rgba(180, 199, 231, 1);
+  font-size: 19px;
+  position: relative;
+  top: 10px;
+}
+
+.hero3__name {
+  text-align: center;
+  color: rgba(27, 55, 100, 1);
+  font-size: 45px;
+}
+
+.hero3__cards {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+
+.hero3__logo {
+  text-align: center;
+  position: relative;
+  right: 23px;
+  color: rgba(27, 55, 100, 1);
+}
+
+.hero3__logoname {
+  color: rgba(150, 154, 160, 1);
+  text-align: center;
+  position: relative;
+  right: 20px;
+}
+
+.hero4__name {
+  font-size: 45px;
+  text-align: center;
+  margin-left: -1000px;
+  color: rgba(255, 255, 255, 1);
+  transform: translateY(50px);
+}
+
+.hero4__start {
+  text-align: center;
+  transform: translateX(270px);
+  display: flex;
+  margin-top: 50px;
+  width: 1440px;
+  gap: 127px;
+}
+.bgc {
+  background-color: rgba(27, 55, 100, 1);
+}
+.hero4__text {
+  margin-top: 25px;
+  font-size: 19px;
+  color: rgba(180, 199, 231, 1);
+}
+
+.hero4__photo {
+  transform: translateY(-120px);
+}
+
+.hero4__btn {
+  padding: 21px 53px 21px 53px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 202, 66, 1);
+  color: rgba(255, 255, 255, 1);
+  transform: translateY(30px);
+}
+
+.hero5__01 {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 202, 66, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(27, 55, 100, 1);
+}
+
+.hero5__card1 {
+  display: flex;
+  gap: 31px;
+}
+
+.hero5__info1 {
+  background-color: rgba(244, 248, 255, 1);
+  width: 241px;
+  padding: 41px 33px;
+}
+
+.hero5__text {
+  margin-top: 31px;
+  color: rgba(27, 55, 100, 1);
+}
+
+.hero5__info2 {
+  margin-top: 32px;
+  background-color: rgba(244, 248, 255, 1);
+  width: 240px;
+  padding: 41px 33px;
+}
+.hero5__card2 {
+  display: flex;
+  gap: 31px;
+}
+
+.hero5__name {
+  color: rgba(27, 55, 100, 1);
+  font-size: 45px;
+  text-align: center;
+}
+
+.border {
+  border: 3px solid rgba(255, 202, 66, 1);
+  width: 55px;
+  position: relative;
+  top: 22px;
+  margin: 0 auto;
+}
+
+.hero5__cards {
+  position: relative;
+  top: 75px;
+}
+
+.hero5__finish {
+  display: flex;
+  gap: 99px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero5__img {
+  position: relative;
+  top: 75px;
+}
+
+.herot6__name {
+  color: rgba(27, 55, 100, 1);
+}
+
+.border1 {
+  border: 3px solid rgba(255, 202, 66, 1);
+  width: 55px;
+  position: relative;
+  top: 27px;
+  width: 49.26px;
+  bottom: 29px;
+}
+
+.hero6__info {
+  position: relative;
+  top: 39px;
+  color: rgba(150, 154, 160, 1);
+}
+
+.hero6__star {
+  display: flex;
+  position: relative;
+  top: 45px;
+  gap: 5px;
+}
+
+.hero6__bg {
+  border: 1px solid rgba(255, 202, 66, 1);
+  border-radius: 100%;
+  padding-right: 10px;
+}
+
+.hero6__comment {
+  width: 62px;
+  font-size: 22px;
+  color: rgba(27, 55, 100, 1);
+}
+
+.hero6__text {
+  font-size: 22px;
+  color: rgba(27, 55, 100, 1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80px;
+}
+
+.hero6__humens{
+  display: flex;
+  gap: 30px;
+}
+
+.hero6__women{
+  position: relative;
+  bottom: 150px;
+}
+
+.hero6__cards{
+  display: flex;
+  gap: 111px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bgc2{
+  background-color: rgba(244, 248, 255, 1);
+}
+
+.hero7__name{
+text-align: center;
+color: rgba(27, 55, 100, 1);
+font-size: 45px;
+}
+
+.hero7__text{
+  font-size: 24px;
+  color: rgba(27, 55, 100, 1);
+  position: relative;
+top: 27px;  
+}
+
+.hero7__info{
+  color: rgba(150, 154, 160, 1);
+  font-size: 19px;
+  position: relative;
+  top: 41px;
+}
+
+.hero7__card1{
+  background-color: rgba(255, 255, 255, 1);
+  width: 411px;
+  padding-bottom: 60px;
+  
+}
+
+  .hero7__semifinal{
+    color: rgba(27, 55, 100, 1);
+    font-size: 18px;
+  }
+
+  .hero7__border{
+    width: 92px;
+    border: 1px solid rgba(27, 55, 100, 1)
+  }
+
+  .hero7__read{
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 100px;
+  }
+
+  .hero7__author{
+    font-size: 17px;
+    color: rgba(27, 55, 100, 1);
+  }
+
+  .hero7__cards{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .hero8__border{
+     border: 3px solid rgba(27, 55, 100, 1);
+  width: 55px;
+  position: relative;
+  top: 22px;
+  margin: 0 auto;
+  }
+
+  .hero8__name{
+    color: rgba(27, 55, 100, 1);
+   
+  }
+
+  .hero8__text{
+   
+    color: rgba(27, 55, 100, 1);
+    position: relative;
+    top: 40px;
+  }
+
+  .hero8__card{
+text-align: center;
+  }
+
+  .hero8__btn{
+    padding: 20px 107.5px;
+    background-color: rgba(27, 55, 100, 1)  ;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+  
+
+  }
+
+  .bgc3{
+    background-color: rgba(255, 202, 66, 1);
+    padding-bottom: 100px;
+  }
+
+  .bgc4{
+    background-color: rgba(27, 55, 100, 1);
+    padding-bottom: 100px;
+  }
+  input{
+    padding: 20px 30px;
+    border: none;
+    width: 400px;
+    position: relative;
+   
+  }
+
+  .hero8__gmail{
+    color: rgba(255, 255, 255, 0);
+    position: relative;
+    top: 50px;
+  }
+  .footer__logo{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer__explore{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+  }
+
+  .footer__home1{
+    color:rgba(180, 199, 231, 1);
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+  }
+
+  .footer__home2{
+    color: rgba(180, 199, 231, 1);
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+  }
+
+  .footer__home3{
+    color: rgba(180, 199, 231, 1);
+    font-size: 18px;
+    position: relative;
+    top: 40px;
+  }
+
+  .footer__home4{
+    color: rgba(180, 199, 231, 1);
+    font-size: 18px;
+    position: relative;
+    top: 50px;
+  }
+
+  .footer__home5{
+    color: rgba(180, 199, 231, 1);
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+  }
+
+  .footer__final{
+    display: flex;
+    position: relative;
+    left: 100px;
+    gap: 70px;
+  }
