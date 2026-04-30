@@ -24,6 +24,8 @@ li {
 
   align-items: center;
 }
+
+
 .nav__wrapper {
   display: flex;
   justify-content: space-between;
@@ -44,6 +46,13 @@ li {
   color: black;
   padding: 13px 80px;
   border: none;
+  transition: 0.3s;
+}
+
+.nav__button:hover {
+ 
+  transform: scale(1.08);
+  
 }
 
 .nav__icons {
@@ -87,6 +96,11 @@ li {
   padding: 20px 50px;
   border: none;
   font-size: 20px;
+  transition: 0.3s;
+}
+
+.hero__button:hover {
+  transform: scale(1.08);
 }
 
 .hero__btn {
@@ -95,6 +109,11 @@ li {
   text-decoration-line: underline;
   font-size: 20px;
   color: rgba(255, 255, 255, 1);
+   transition: 0.3s;
+}
+
+.hero__btn:hover {
+  transform: scale(1.08);
 }
 
 .hero__review {
@@ -164,7 +183,12 @@ li {
   padding: 21px 53px;
   position: relative;
   top: 67px;
-  right: 240px;
+  right: 200px;
+}
+
+.hero1__btn:hover {
+  background-color: #ffca42;
+  transition: all 1s ease;
 }
 
 .hero1__start {
@@ -184,7 +208,7 @@ li {
 .hero1__cards {
   display: flex;
   position: relative;
-  top: 50px;
+
 }
 
 .color2 {
@@ -339,6 +363,11 @@ li {
   border: 1px solid rgba(255, 202, 66, 1);
   color: rgba(255, 255, 255, 1);
    align-self: center;
+}
+
+.copy__btn:hover {
+  background-color: #ffca42;
+   transition: all 1s ease;
 }
 
 .copy__btn {
@@ -568,6 +597,11 @@ li {
   border: none;
   color: rgba(255, 255, 255, 1);
   position: relative;
+   transition: 0.3s;
+}
+
+.hero8__btn:hover {
+transform: scale(1.08);
 }
 
 .bgc3 {
