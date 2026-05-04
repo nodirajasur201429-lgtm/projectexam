@@ -9,6 +9,10 @@
   padding: 52px 12px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -24,6 +28,9 @@ li {
 
   align-items: center;
 }
+git add .
+git commit -m "update"
+git push
 
 
 .nav__wrapper {
@@ -629,6 +636,8 @@ input {
   display: flex;
   gap: 10px;
 }
+
+
 footer {
   background-color: rgba(27, 55, 100, 1);
   padding-bottom: 20px;
@@ -674,8 +683,17 @@ footer {
   top: 60px;
 }
 
-.footer__final {
+.footer__final1 {
   display: flex;
   position: relative;
   gap: 70px;
+  
+}
+
+.footer__final{
+  display: flex;
+  position: relative;
+  left: 150px;
+  gap: 70px;
+
 }
